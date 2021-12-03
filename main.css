@@ -1,0 +1,98 @@
+body {
+	margin : 0;
+	padding: 0;
+}
+
+.header {
+	border-bottom: 2px solid #dc0101;
+}
+
+.page {
+	border: 1px solid black;
+}
+
+.footer {
+	border: 1px solid black;
+}
+
+.columm {
+	border: 1px solid black;
+	width : 1000px;
+	margin: 0px auto;
+}
+
+.page .column {
+	height: 100vh;
+}
+
+#logo-i-social {
+	display: flex;
+	padding: 0 50px;
+}
+
+#logo-holder {
+	flex-grow: 1;
+}
+
+
+#logo-holder img {
+	width : 80px;
+	height: 80px;
+}
+
+#social-holder {
+	flex-grow      : 1;
+	text-align     : right;
+}
+
+#social-holder a {
+	text-decoration: none;
+}
+
+#social-holder img {
+	width : 20px;
+	height: 20px;
+	
+}
+
+#main-manu {
+	display: flex;
+}
+
+#main-manu a {
+	flex-grow      : 1;
+	text-align     : center;
+	display        : block;
+	padding        : 10px 0;
+	text-decoration: none;
+	color          : #dc0101;
+	transition     : 400ms;
+}
+
+#main-manu a:hover,
+#main-manu a.active {
+	background: #dc0101;
+	color     : #ffffff;
+
+}
+#pocetna{
+    text-align: center;
+	color:#ffffff;
+	background: url('assets/pozadine/dog.jpg');
+    background-size: cover;
+	background-attachment: fixed;
+}
+#pocetna h1 {
+	   font-size: 48 pt;
+	   padding-top: calc(50vh- 250px);
+	   padding: 40px 40px;
+}
+.dark-box{
+	background-color: #22222250;
+	border: 1px solid #ffffff;
+	font-size: 24pt;
+	padding: 40px;
+	text-align: center;
+	margin: 0px 70px;
+}
+
